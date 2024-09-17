@@ -1,0 +1,27 @@
+html, body{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow-x: hidden;
+  height: 100%;
+}
+
+/* #root{
+  background-color: antiquewhite;
+} */
+
+.wrapper{
+  display: grid;
+  justify-items: center;
+  padding: 1rem 0.5rem;
+  gap: 1rem;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+  .wrapper {
+    grid-template-columns: 1fr;
+    padding: 1rem;
+  }
+}
